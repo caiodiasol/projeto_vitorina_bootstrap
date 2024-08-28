@@ -1,0 +1,71 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.navbar{
+    background-color:rgba(240, 192, 76, 1);
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color:rgba(240, 192, 76, 1);
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color:#ffeae6 ;
+}
+
+.section-title{
+    font-family: "Josefin Sans", sans-serif;    
+}
+
+
+#sobre-o-restaurante, #cardapio{
+    background-color: #ffeae6;
+
+}
+
+.text-colored{
+    color: rgba(240, 192, 76, 1);
+}
+
+.nav-cardapio .nav-link.active, 
+#fale-conosco button{
+    background-color:rgba(240, 192, 76, 1);
+    color: #fff;
+}
+.nav-cardapio .nav-link:hover{
+    color: rgba(240, 192, 76, 1);
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+textarea{
+    resize: none;
+}
+
+@media (max-width:767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
+
